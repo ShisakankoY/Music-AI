@@ -72,7 +72,7 @@ function epoch() {
     if (count === 1500) {
         console.log(w1, bias);
         let fullSong = [];
-        for (let c = 0; c < 20; c++) {
+        for (let c = 0; c < 50; c++) {
             const part = generate(Math.floor(Math.random() * 7), 7);
             fullSong.push(...part);
         }
